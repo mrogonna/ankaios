@@ -10,6 +10,7 @@ repository = 'https://github.com/eclipse-ankaios/ankaios'
 homepage = 'https://eclipse-ankaios.github.io'
 
 [dependencies]
+api ={ path = "../api" }
 common = { path = "../common" }
 grpc = { path = "../grpc" }
 log = "0.4"

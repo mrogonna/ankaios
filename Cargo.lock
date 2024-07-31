@@ -28,8 +28,9 @@ dependencies = [
 
 [[package]]
 name = "ank"
-version = "0.4.0-pre"
+version = "0.4.0-rc1"
 dependencies = [
+ "api",
  "clap",
  "common",
  "crossterm",
@@ -47,7 +48,7 @@ dependencies = [
 
 [[package]]
 name = "ank-agent"
-version = "0.4.0-pre"
+version = "0.4.0-rc1"
 dependencies = [
  "api",
  "async-stream",
@@ -80,8 +81,9 @@ dependencies = [
 
 [[package]]
 name = "ank-server"
-version = "0.4.0-pre"
+version = "0.4.0-rc1"
 dependencies = [
+ "api",
  "async-stream",
  "async-trait",
  "clap",
@@ -158,9 +160,10 @@ checksum = "b3d1d046238990b9cf5bcde22a3fb3584ee5cf65fb2765f454ed428c7a0063da"
 
 [[package]]
 name = "api"
-version = "0.4.0-pre"
+version = "0.4.0-rc1"
 dependencies = [
  "prost",
+ "serde",
  "tonic",
  "tonic-build",
 ]
@@ -402,7 +405,7 @@ checksum = "0b6a852b24ab71dffc585bcb46eaf7959d175cb865a7152e35b348d1b2960422"
 
 [[package]]
 name = "common"
-version = "0.4.0-pre"
+version = "0.4.0-rc1"
 dependencies = [
  "api",
  "async-trait",
@@ -669,7 +672,7 @@ checksum = "40ecd4077b5ae9fd2e9e169b102c6c330d0605168eb0e8bf79952b256dbefffd"
 
 [[package]]
 name = "grpc"
-version = "0.4.0-pre"
+version = "0.4.0-rc1"
 dependencies = [
  "api",
  "async-trait",
