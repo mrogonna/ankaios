@@ -1,12 +1,13 @@
 [package]
 name = "grpc"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
-description.workspace = true
-documentation.workspace = true
-authors.workspace = true
-repository.workspace = true
+version = '0.4.0-pre'
+edition = '2021'
+license = 'Apache-2.0'
+description = 'Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing Software (HPCs).'
+documentation = 'https://eclipse-ankaios.github.io/ankaios'
+authors = ['Elektrobit Automotive GmbH and Ankaios contributors']
+repository = 'https://github.com/eclipse-ankaios/ankaios'
+homepage = 'https://eclipse-ankaios.github.io'
 
 [dependencies]
 api = { path = "../api" }
